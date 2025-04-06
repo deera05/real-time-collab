@@ -1,0 +1,59 @@
+/* client/src/components/Landing.css */
+.landing-page {
+    height: 100vh;
+    background: linear-gradient(135deg, #4f46e5, #3b82f6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: 'Segoe UI', sans-serif;
+    text-align: center;
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  .logo-container {
+    max-width: 600px;
+  }
+  
+  .logo {
+    font-size: 64px;
+    font-weight: bold;
+    animation: bounce 2s infinite;
+  }
+  
+  .logo span {
+    color: #22d3ee;
+  }
+  
+  .tagline {
+    font-size: 24px;
+    margin-bottom: 30px;
+    color: #e0f2fe;
+  }
+  
+  .button-group button {
+    margin: 0 10px;
+    padding: 12px 24px;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #22d3ee;
+    color: #1e293b;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button-group button:hover {
+    background-color: #0ea5e9;
+  }
+  
+  @keyframes bounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+  }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  

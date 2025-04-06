@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f9f9f9;
+  }
+  .auth-container, .editor-container {
+    max-width: 500px;
+    margin: 100px auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    border-radius: 10px;
+  }
+  .auth-container input, .auth-container button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+  }
+  textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+  }
